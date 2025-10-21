@@ -1,0 +1,693 @@
+--------- beginning of main
+10-19 18:54:17.416 W/com.instagram.android(13689): type=1400 audit(0.0:113333): avc: granted { execute } for comm=49674578656375746F725632202333 path="/data/data/com.instagram.android/lib-compressed/libmcicomponentattributionlogger-jni.so" dev="dm-40" ino=585788 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:17.415 W/AppInitScheduler|Schedule(13689):   Executing 55:IgMemoryProgramQplInitializer
+10-19 18:54:17.415 W/AppInitScheduler|Run(13689): Running IgMemoryProgramQplInitializer
+10-19 18:54:17.415 W/AppInitScheduler|Run(13689):   Finished IgMemoryProgramQplInitializer in 0ms
+10-19 18:54:17.415 W/AppInitScheduler|Schedule(13689):   Executing 71:MemoryDumperInitializer
+10-19 18:54:17.415 W/AppInitScheduler|Run(13689): Running MemoryDumperInitializer
+10-19 18:54:17.416 W/AppInitScheduler|Run(13689):   Finished MemoryDumperInitializer in 1ms
+10-19 18:54:17.416 W/AppInitScheduler|Schedule(13689):   Executing 54:IgMemoryLoggingManagerInitializer
+10-19 18:54:17.416 W/AppInitScheduler|Run(13689): Running IgMemoryLoggingManagerInitializer
+10-19 18:54:17.416 W/AppInitScheduler|Run(13689):   Finished IgMemoryLoggingManagerInitializer in 0ms
+10-19 18:54:17.416 W/AppInitScheduler|Schedule(13689):   Executing 99:SystemMessageInitializer
+10-19 18:54:17.416 W/AppInitScheduler|Run(13689): Running SystemMessageInitializer
+10-19 18:54:17.417 W/AppInitScheduler|Run(13689):   Finished SystemMessageInitializer in 1ms
+10-19 18:54:17.417 W/AppInitScheduler|Schedule(13689):   Executing 89:PushNotificationInitializer
+10-19 18:54:17.417 W/AppInitScheduler|Run(13689): Running PushNotificationInitializer
+10-19 18:54:17.423 W/SessionScopedProviderInitializer(13689): Initialize com.instagram.firstpartyinstalltracker.UserSessionStart end
+10-19 18:54:17.428 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libmcicomponentattributionlogger-jni.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:17.437 W/SessionScopedProviderInitializer(13689): Initialize com.instagram.trusteddevice.registration.jobs.StartTrustedDeviceAppJob end
+10-19 18:54:17.445 W/AppInitScheduler|Run(13689):   Finished PushNotificationInitializer in 28ms
+10-19 18:54:17.445 W/AppInitScheduler|Schedule(13689):   Executing 69:MapConfigInitializer
+10-19 18:54:17.445 W/AppInitScheduler|Run(13689): Running MapConfigInitializer
+10-19 18:54:17.448 W/AppInitScheduler|Run(13689):   Finished MapConfigInitializer in 3ms
+10-19 18:54:17.449 W/AppInitScheduler|Schedule(13689):   Executing 59:IndependentColdStartJobs
+10-19 18:54:17.449 W/AppInitScheduler|Run(13689): Running IndependentColdStartJobs
+10-19 18:54:17.457 I/adbd    (13935): Remote process closed the socket (on MSG_PEEK)
+--------- beginning of system
+10-19 18:54:17.460 W/WindowManager( 2067): Cannot find window which accessibility connection is added to
+10-19 18:54:17.460 V/ActivityManager( 2067): Got obituary of 7933:com.gridnote.bitacora_fix
+10-19 18:54:17.460 W/ActivityManager( 2067): setHasOverlayUi called on unknown pid: 7933
+10-19 18:54:17.467 I/Zygote  ( 1026): Process 7933 exited due to signal 9 (Killed)
+10-19 18:54:17.467 W/SessionScopedProviderInitializer(13689): Initialize com.instagram.direct.initialization.DirectUserScopedInitializerUserSessionStart end
+10-19 18:54:17.491 W/AppInitScheduler|Run(13689):   Finished IndependentColdStartJobs in 42ms
+10-19 18:54:17.491 W/AppInitScheduler|Schedule(13689):   Executing 41:ConfigFromQEInitializer
+10-19 18:54:17.491 W/AppInitScheduler|Run(13689): Running ConfigFromQEInitializer
+10-19 18:54:17.493 W/IgZoneModule(13689): IG Policy Zone is disabled. No-op Zone is setup
+10-19 18:54:17.494 W/AppInitScheduler|Run(13689):   Finished ConfigFromQEInitializer in 3ms
+10-19 18:54:17.494 W/AppInitScheduler|Schedule(13689):   Executing 60:IndependentSingletonInitializer
+10-19 18:54:17.494 W/AppInitScheduler|Run(13689): Running IndependentSingletonInitializer
+10-19 18:54:17.497 W/AppInitScheduler|Run(13689):   Finished IndependentSingletonInitializer in 3ms
+10-19 18:54:17.497 W/AppInitScheduler|Schedule(13689):   Executing 81:PeriodicThreadBoostInitializer
+10-19 18:54:17.497 W/AppInitScheduler|Run(13689): Running PeriodicThreadBoostInitializer
+10-19 18:54:17.498 W/AppInitScheduler|Run(13689):   Finished PeriodicThreadBoostInitializer in 1ms
+10-19 18:54:17.498 W/AppInitScheduler|Schedule(13689):   Executing 52:HeroServiceControllerInitializer
+10-19 18:54:17.498 W/AppInitScheduler|Run(13689): Running HeroServiceControllerInitializer
+10-19 18:54:17.498 W/AppInitScheduler|Run(13689):   Finished HeroServiceControllerInitializer in 0ms
+10-19 18:54:17.498 W/AppInitScheduler|Schedule(13689):   Executing 86:PushBlockingTestExecutor
+10-19 18:54:17.498 W/AppInitScheduler|Run(13689): Running PushBlockingTestExecutor
+10-19 18:54:17.499 W/AppInitScheduler|Run(13689):   Finished PushBlockingTestExecutor in 0ms
+10-19 18:54:17.499 W/AppInitScheduler|Schedule(13689):   Executing 76:MultiProcessTrackerInitializer
+10-19 18:54:17.499 W/AppInitScheduler|Run(13689): Running MultiProcessTrackerInitializer
+10-19 18:54:17.499 W/AppInitScheduler|Run(13689):   Finished MultiProcessTrackerInitializer in 0ms
+10-19 18:54:17.499 W/AppInitScheduler|Schedule(13689):   Executing 106:IgMmapBufferProcessJob
+10-19 18:54:17.499 W/AppInitScheduler|Run(13689): Running IgMmapBufferProcessJob
+10-19 18:54:17.500 W/AppInitScheduler|Run(13689):   Finished IgMmapBufferProcessJob in 1ms
+10-19 18:54:17.500 W/AppInitScheduler|Schedule(13689):   Executing 83:PrivacyFlowInitializer
+10-19 18:54:17.500 W/AppInitScheduler|Run(13689): Running PrivacyFlowInitializer
+10-19 18:54:17.500 W/AppInitScheduler|Run(13689):   Finished PrivacyFlowInitializer in 0ms
+10-19 18:54:17.500 W/AppInitScheduler|Schedule(13689):   Executing 121:QpLoginInterstitialNeedInitInitializer
+10-19 18:54:17.500 W/AppInitScheduler|Run(13689): Running QpLoginInterstitialNeedInitInitializer
+10-19 18:54:17.501 W/AppInitScheduler|Run(13689):   Finished QpLoginInterstitialNeedInitInitializer in 1ms
+10-19 18:54:17.501 W/AppInitScheduler|Schedule(13689):   Executing 92:ScreenTimeInitializer
+10-19 18:54:17.501 W/AppInitScheduler|Run(13689): Running ScreenTimeInitializer
+10-19 18:54:17.501 W/AppInitScheduler|Run(13689):   Finished ScreenTimeInitializer in 0ms
+10-19 18:54:17.501 W/AppInitScheduler|Schedule(13689):   Executing 90:QuietModeInitializer
+10-19 18:54:17.501 W/AppInitScheduler|Run(13689): Running QuietModeInitializer
+10-19 18:54:17.501 W/AppInitScheduler|Run(13689):   Finished QuietModeInitializer in 0ms
+10-19 18:54:17.501 W/AppInitScheduler|Schedule(13689):   Executing 67:LithoInitializer
+10-19 18:54:17.503 W/FileBasedMultiProcessTracker(13689): <default>: Initializing FileBasedMultiProcessTracking using /data/user/0/com.instagram.android/app_multiprocess_tracking
+10-19 18:54:17.503 W/FileBasedMultiProcessTracker(13689): <default>: Creating file to track 13689
+10-19 18:54:17.503 W/AppInitScheduler|Run(13689): Running LithoInitializer
+10-19 18:54:17.510 W/FileBasedMultiProcessTracker(13689): <default>: FileBasedMultiProcessTracker ready!
+10-19 18:54:17.516 W/AppInitScheduler|Run(13689):   Finished LithoInitializer in 15ms
+10-19 18:54:17.516 W/AppInitScheduler|Schedule(13689):   Executing 123:ComposeInitializer
+10-19 18:54:17.516 W/AppInitScheduler|Run(13689): Running ComposeInitializer
+10-19 18:54:17.517 W/AppInitScheduler|Run(13689):   Finished ComposeInitializer in 1ms
+10-19 18:54:17.517 W/AppInitScheduler|Schedule(13689):   Executing 82:PreinflateInitializer
+10-19 18:54:17.517 W/AppInitScheduler|Run(13689): Running PreinflateInitializer
+10-19 18:54:17.518 W/AppInitScheduler|Run(13689):   Finished PreinflateInitializer in 1ms
+10-19 18:54:17.518 W/AppInitScheduler|Schedule(13689):   Executing 73:MessageQueueInterceptorInitializer
+10-19 18:54:17.518 W/AppInitScheduler|Run(13689): Running MessageQueueInterceptorInitializer
+10-19 18:54:17.518 W/AppInitScheduler|Run(13689):   Finished MessageQueueInterceptorInitializer in 0ms
+10-19 18:54:17.518 W/AppInitScheduler|Schedule(13689):   Executing 84:ProxyServiceInitializer
+10-19 18:54:17.519 W/AppInitScheduler|Run(13689): Running ProxyServiceInitializer
+10-19 18:54:17.519 W/proxy_service(13689): Initialize proxy service.
+10-19 18:54:17.525 W/FileBasedMultiProcessTracker(13689): <default>: Observed removed PID: 11732
+10-19 18:54:17.530 W/proxy_service(13689): User not in allowed region.
+10-19 18:54:17.530 W/AppInitScheduler|Run(13689):   Finished ProxyServiceInitializer in 12ms
+10-19 18:54:17.531 W/AppInitScheduler|Schedule(13689):   Executing 85:PulsarSchedulerInitializer
+10-19 18:54:17.531 W/AppInitScheduler|Run(13689): Running PulsarSchedulerInitializer
+10-19 18:54:17.531 W/AppInitScheduler|Run(13689):   Finished PulsarSchedulerInitializer in 1ms
+10-19 18:54:17.531 W/AppInitScheduler|Schedule(13689):   Executing 26:BackgroundColdStartInitializer
+10-19 18:54:17.531 W/AppInitScheduler|Run(13689): Running BackgroundColdStartInitializer
+10-19 18:54:17.531 W/AppInitScheduler|Run(13689):   Finished BackgroundColdStartInitializer in 0ms
+10-19 18:54:17.532 W/AppInitScheduler|Schedule(13689):   Executing 102:UXLoggingInitializer
+10-19 18:54:17.532 W/AppInitScheduler|Run(13689): Running UXLoggingInitializer
+10-19 18:54:17.538 D/CompatibilityChangeReporter( 2067): Compat change id reported: 319212206; UID 10375; state: ENABLED
+10-19 18:54:17.544 W/AppInitScheduler|Run(13689):   Finished UXLoggingInitializer in 13ms
+10-19 18:54:17.544 W/AppInitScheduler|Schedule(13689):   Executing 58:ImageUltraHdrModeInitializer
+10-19 18:54:17.544 W/AppInitScheduler|Run(13689): Running ImageUltraHdrModeInitializer
+10-19 18:54:17.544 W/AppInitScheduler|Run(13689):   Finished ImageUltraHdrModeInitializer in 0ms
+10-19 18:54:17.544 W/AppInitScheduler|Schedule(13689):   Executing 70:MediaCodecTrackingInitializer
+10-19 18:54:17.544 W/AppInitScheduler|Run(13689): Running MediaCodecTrackingInitializer
+10-19 18:54:17.545 W/AppInitScheduler|Run(13689):   Finished MediaCodecTrackingInitializer in 1ms
+10-19 18:54:17.545 D/ConnectivityService( 2067): NetReassign [no changes] [c 0] [a 1] [i 5]
+10-19 18:54:17.545 W/AppInitScheduler|Schedule(13689):   Executing 51:HeliumInitializer
+10-19 18:54:17.545 W/AppInitScheduler|Run(13689): Running HeliumInitializer
+10-19 18:54:17.551 W/AppInitScheduler|Run(13689):   Finished HeliumInitializer in 5ms
+10-19 18:54:17.551 W/AppInitScheduler|Schedule(13689):   Executing 43:DebugHeadInitializer
+10-19 18:54:17.551 W/AppInitScheduler|Run(13689): Running DebugHeadInitializer
+10-19 18:54:17.552 W/AppInitScheduler|Run(13689):   Finished DebugHeadInitializer in 1ms
+10-19 18:54:17.552 W/AppInitScheduler|Schedule(13689):   Executing 53:IgLinkifyInitializer
+10-19 18:54:17.552 W/AppInitScheduler|Run(13689): Running IgLinkifyInitializer
+10-19 18:54:17.553 W/AppInitScheduler|Run(13689):   Finished IgLinkifyInitializer in 1ms
+10-19 18:54:17.553 W/AppInitScheduler|Schedule(13689):   Executing 36:BitmapDebugInitializer
+10-19 18:54:17.553 W/AppInitScheduler|Run(13689): Running BitmapDebugInitializer
+10-19 18:54:17.553 W/AppInitScheduler|Run(13689):   Finished BitmapDebugInitializer in 0ms
+10-19 18:54:17.553 W/AppInitScheduler|Schedule(13689):   Executing 118:ActivityBackstackManagerInitializer
+10-19 18:54:17.553 W/AppInitScheduler|Run(13689): Running ActivityBackstackManagerInitializer
+10-19 18:54:17.554 W/AppInitScheduler|Run(13689):   Finished ActivityBackstackManagerInitializer in 1ms
+10-19 18:54:17.554 W/AppInitScheduler|Schedule(13689):   Executing 125:PendingWorkInitializer
+10-19 18:54:17.554 W/AppInitScheduler|Run(13689): Running PendingWorkInitializer
+10-19 18:54:17.554 W/AppInitScheduler|Run(13689):   Finished PendingWorkInitializer in 0ms
+10-19 18:54:17.554 W/AppInitScheduler|Schedule(13689):   Executing 126:SessionScopedProviderInitializerCompletion
+10-19 18:54:17.554 W/AppInitScheduler|Run(13689): Running SessionScopedProviderInitializerCompletion
+10-19 18:54:17.555 W/AppInitScheduler|Run(13689):   Finished SessionScopedProviderInitializerCompletion in 1ms
+10-19 18:54:17.555 W/AppInitScheduler|Schedule(13689):   Executing 131:CobraInitializer
+10-19 18:54:17.555 W/AppInitScheduler|Run(13689): Running CobraInitializer
+10-19 18:54:17.560 W/AppInitScheduler|Run(13689):   Finished CobraInitializer in 5ms
+10-19 18:54:17.560 W/AppInitScheduler|Schedule(13689):   Executing 137:LruCacheTrackerInitializer
+10-19 18:54:17.560 W/AppInitScheduler|Run(13689): Running LruCacheTrackerInitializer
+10-19 18:54:17.560 W/AppInitScheduler|Run(13689):   Finished LruCacheTrackerInitializer in 0ms
+10-19 18:54:17.560 W/AppInitScheduler|Schedule(13689):   Executing 130:MarkAppInitCriticalWorkComplete
+10-19 18:54:17.560 W/AppInitScheduler|Run(13689): Running MarkAppInitCriticalWorkComplete
+10-19 18:54:17.561 W/AppInitScheduler|Run(13689):   Finished MarkAppInitCriticalWorkComplete in 0ms
+10-19 18:54:17.561 W/AppInitScheduler|Run(13689): Running ResponseObserverInitializer
+10-19 18:54:17.561 W/AppInitScheduler|Run(13689):   Finished ResponseObserverInitializer in 0ms
+10-19 18:54:17.561 W/AppInitScheduler|Run(13689): Running UsdidInitializer
+10-19 18:54:17.568 W/AppInitScheduler|Run(13689):   Finished UsdidInitializer in 0ms
+10-19 18:54:17.569 W/AppInitScheduler|Run(13689): Running PreloadsFirstAppOpenFlagInitializer
+10-19 18:54:17.569 W/AppInitScheduler|Run(13689):   Finished PreloadsFirstAppOpenFlagInitializer in 0ms
+10-19 18:54:17.570 W/AppInitScheduler|Schedule(13689): Pending tasks reached zero, maybe shutting down…
+10-19 18:54:17.570 W/AppInitScheduler|Run(13689): All work finished.
+10-19 18:54:17.575 I/Typeface(13689): updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+10-19 18:54:17.579 W/DGWClientHolder(13689): DGWClientConfig IG4A\B4A: {deviceOS:android,isWorkBuild:false,appVersion:402.0.0.49.70,appId:567067343352427,streamIdleTimeoutMs:1800000,responseCompression:,enableHTTP3:false,zeroRatingEnabled:false,zeroUrlRewritingV2Enabled:false,zeroRatingCachingEnabled:false,gatewayDomain:gateway.instagram.com,streamGroupPingPeriod:25,streamGroupPingTimeout:10,streamGroupStopBgPingDelay:300,debugCallbackCrashes2:true,useCachedStreamGroupsStatus:false,closeNetworkConnectionOnTimeout:true,connectivityManagerOptions:{enablePingInBackground:true,bgPingIntervalMs:60000,pingIntervalInMs:{HIGH:0,MID:0,LOW:0,DEFAULT:60000},pingTimeoutInMs:{HIGH:0,MID:0,LOW:0,DEFAULT:5000},pingLatencyInMs:{HIGH:0, MID:0},skipPingAfterIngressTraffic:true,disablePingWhileNoActiveStream:false,sendPingOnAppForeground:false,pingTrafficTracingSamplingRate:0,initAppStateAsBackground:true,ignoreOnNetworkDisconnectedSignalForPing:true,initialUnreachableDelayFastMode:1000,ignoreOnNetworkDisconnectedSignalAndSendPing:false,markDisconnectedInBackground:false,shouldSetNotStartedOnFg:false,enableNetworkMonitorV2:false,extendedFgIntervalSeconds:120,useExtendedFgInterval:false,disableTransportInitFromNetworkMonitor:false,useExtendedFgIntervalNetworkChangeOnly:false,useTigon:false,enableDeviceDataSettingsGetter:false},personalizationConfig:{enabled:false,streamEstablishmentLatencyInMs:{HIGH:0, MID:0},streamEstablishmentTimeoutInSeconds:{HIGH:10,MID:10,LOW:10,DEFAULT:30},publishTimeoutInSeconds:{HIGH:10,MID:10,LOW:10,DEFAULT:10},resetPersonalizationClassOnTimeout:false,sgConnectTimeoutInSeconds:{HIGH:0,MID:0,LOW:0,DEFAULT:0},sgPingTimeoutInSeconds:{HIGH:0,MID:0,LOW:0,DEFAULT:0},tunnelConnectTimeoutInSeconds:{HIGH:0,MID:0,LOW:0,DEFAULT:0},tunnelConnectAckTimeoutInSeconds:{HIGH:0,MID:0,LOW:0,DEFAULT:0},trackSgDataLatency:false},eagerStreamGroupEnabled:false,keepStreamGroupAliveAfterLastStream:false,enableFetchRegionHintFromWww:false,regionHintCacheTtlHours:0,matchMqttWakeup:false,enableTunnelRetriableLayer:true,useExecutorProxies:true,avoidCopyingBuffer:false,fallbackConfig:null,retryableLayerConfig:{useStreamGroupsForConnectivity: false, maxRetries: 10, connectTimeoutSeconds: 10, bgTeardownDelaySeconds: 0, connectSchedulerConfig: {numberOfFastModeRetries: 2, initialUnreachableDelayFastMode: 200, additionalBackgroundDelayFastMode: 100, additionalDelayPerTryFastMode: 100, initialReachableDelayBackOffMode: 500, initialUnreachableDelayBackOffMode: 1000, additionalBackgroundDelayBackOffMode: 300, maxDelayBackOffMode: 40000, randomizeFactorBackOffModeEnabled: true, triesOffsetBackOffMode: 0}, closeConnectionOnNetworkInterfaceChange: true, enableEarlyFailOnSuspended: false, bufferBgRequestsAfterTeardown: false, stopPingsOnSuspended: false},enableEligibilityHashHeader:true,userAgent:,removeAsyncExecutorFromTunnelNetworkCallbacks:false,enableCallingSgErrorOnlyOnceInSgt:false,msysStreamGroupTransportSampleRate:0,msysStreamLifecycleSampleRate:0,msysNotifyStreamGroupOnPubAckTimeout:false,closeNetworkRequestOnTunnelStreamDestruct:true,useTigon:false,useTigonJava:false,useTigonZeroRating:false,allowRetriableWithConnectivityAwareLayer:false,msysBufferRequestWhileNoConnectivity:true, disableRetriableLayer:false, disableCancellationForTigonRequests:false, subscribeSgPingertoAppStatusCallbacks:false, triggerMsysHighSignalSyncOnAllConnections:true, h2MaxRequestsPerConnection:0, mvfstUseUDPSocketConnect:false, enableLogoutOnAuthFailure:false, useTunnelExecutor:false, tunnelConnectAckDisableConnectionClosure:false, mvfstKeepAliveTimeoutSeconds:0}
+10-19 18:54:17.580 W/DGWClientHolder(13689): DGWMNSConfig IG4A\B4A: MNSDGWNetworkStackConfig: dnsCacheDir:/data/user/0/com.instagram.android/files/android_ig_mns_dgw_dns_cache, quicEnabled:true, quicIdleTimeoutSec:35, quicKeepAliveTimeoutSec:0, quicHandshakeTimeoutSec:5, http2PingIntervalSec:260, http2MaxRequestsPerConnection:0, userAgent:Instagram 402.0.0.49.70 Android (33/13; 540dpi; 1080x2133; motorola; moto g32; devon; qcom; es_US; 806345170), enableQuicEarlyData:false, tcpDelayMs:0, tcpConnectTimeoutSec:7, highPriorityEvLoopThread:false, enableHttpVersionCache:false, quicKnobs:, trustSandboxCertificates:false, quicUseMvfstMobileLibrary:true, enableQlog:false, maxQlogLines:500, mvfstUseHandshakeTimeout:false, preferIPv6ForBothTCPAndQUIC:false, closeWhenNoRequests:false,  closeConnectionThrottlingWindowMs:0, useTigon:true, mvfstUseUDPSocketConnect:false, mvfstKeepAliveTimeoutSeconds:0
+10-19 18:54:17.597 W/LibevQuicAsyncUDPSocket.h(13689): setTosOrTrafficClass not implemented in LibevQuicAsyncUDPSocket
+10-19 18:54:17.600 W/BackgroundStartupDetector(13689): coldStartMode=DEFINITELY_BACKGROUND
+10-19 18:54:17.614 W/BackgroundStartupDetector(13689): bgMode=BACKGROUND
+10-19 18:54:17.621 W/MDCLLight(13689): Failed to load class from parent: X.08X_LifecycleAdapter
+10-19 18:54:17.621 W/MDCLLight(13689): java.lang.ClassNotFoundException: X.08X_LifecycleAdapter
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.Class.classForName(Native Method)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.BootClassLoader.findClass(ClassLoader.java:2698)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.BootClassLoader.loadClass(ClassLoader.java:2758)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadFromParent(:4)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadClass(:38)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:625)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.Class.classForName(Native Method)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.Class.forName(Class.java:597)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.Class.forName(Class.java:502)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.0gp.A04(:69)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.0gp.A01(:7)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.0gp.A00(:15)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.0gp.A02(:35)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.0gk.A0A(:22)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at X.7cg.run(:11)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at android.os.Handler.handleCallback(Handler.java:984)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at android.os.Handler.dispatchMessage(Handler.java:104)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at android.os.Looper.loopOnce(Looper.java:238)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at android.os.Looper.loop(Looper.java:357)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at android.app.ActivityThread.main(ActivityThread.java:8149)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at java.lang.reflect.Method.invoke(Native Method)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+10-19 18:54:17.621 W/MDCLLight(13689): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+10-19 18:54:17.621 W/MDCLLight(13689): Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+10-19 18:54:17.621 W/MDCLLight(13689): Trying to fallback load dexX.08X_LifecycleAdapter moduleHint = null
+10-19 18:54:17.621 E/MDCLLight(13689): Fallback load dex failed for X.08X_LifecycleAdapter
+10-19 18:54:17.638 E/SlowAppComponent(13689): 0ms: InstagramAppShell instantiating…
+10-19 18:54:17.639 E/SlowAppComponent(13689): 420ms: ClipsDraftProvider instantiating…
+10-19 18:54:17.641 E/SlowAppComponent(13689): 423ms: SecureFileProvider instantiating…
+10-19 18:54:17.642 E/SlowAppComponent(13689): 449ms: AsyncFamilyAppsUserValuesProvider instantiating…
+10-19 18:54:17.642 E/SlowAppComponent(13689): 456ms: AsyncInstagramPhoneIdProvider instantiating…
+10-19 18:54:17.642 E/SlowAppComponent(13689): 456ms: FileProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 456ms: FoaBackupTokenProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 457ms: ThreadsContentProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 457ms: DeferredCurrentUserProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 456ms: InstallReferrerProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 458ms: IgLoggedInUsersContentProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 458ms: FirstPartyUserValuesLiteProviderV2 instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 491ms: AndroidXAppInitializer instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): 501ms: UsdidValuesProvider instantiating…
+10-19 18:54:17.643 W/VideoCapabilities(13689): Unsupported mime image/vnd.android.heic
+10-19 18:54:17.643 E/SlowAppComponent(13689): 501ms: DeferredDeeplinkProvider instantiating…
+10-19 18:54:17.643 E/SlowAppComponent(13689): Main thread was blocked for 2257ms in the background starting with InstagramAppShell
+10-19 18:54:17.649 W/MDCLLight(13689): Failed to load class from parent: com.amazon.device.messaging.ADM
+10-19 18:54:17.649 W/MDCLLight(13689): java.lang.ClassNotFoundException: com.amazon.device.messaging.ADM
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.Class.classForName(Native Method)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.BootClassLoader.findClass(ClassLoader.java:2698)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.BootClassLoader.loadClass(ClassLoader.java:2758)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadFromParent(:4)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadClass(:38)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:625)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.Class.classForName(Native Method)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.Class.forName(Class.java:597)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.Class.forName(Class.java:502)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at X.1sQ.A00(:17)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at X.Ael.onQueueIdle(:135)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at X.4oo.queueIdle(:34)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at android.os.MessageQueue.next(MessageQueue.java:411)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at android.os.Looper.loopOnce(Looper.java:182)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at android.os.Looper.loop(Looper.java:357)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at android.app.ActivityThread.main(ActivityThread.java:8149)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at java.lang.reflect.Method.invoke(Native Method)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+10-19 18:54:17.649 W/MDCLLight(13689): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+10-19 18:54:17.649 W/MDCLLight(13689): Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+10-19 18:54:17.649 W/MDCLLight(13689): Trying to fallback load dexcom.amazon.device.messaging.ADM moduleHint = null
+10-19 18:54:17.649 E/MDCLLight(13689): Fallback load dex failed for com.amazon.device.messaging.ADM
+10-19 18:54:17.693 D/CompatibilityChangeReporter(13689): Compat change id reported: 194532703; UID 10375; state: ENABLED
+10-19 18:54:17.695 D/CompatibilityChangeReporter( 2067): Compat change id reported: 194532703; UID 10375; state: ENABLED
+10-19 18:54:17.698 W/MDCLLight(13689): Failed to load class from parent: org.slf4j.impl.StaticLoggerBinder
+10-19 18:54:17.698 W/MDCLLight(13689): java.lang.ClassNotFoundException: org.slf4j.impl.StaticLoggerBinder
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.Class.classForName(Native Method)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.BootClassLoader.findClass(ClassLoader.java:2698)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.BootClassLoader.loadClass(ClassLoader.java:2758)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadFromParent(:4)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadClass(:38)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:625)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at org.slf4j.LoggerFactory.getLogger(:123)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.reflect.Method.invoke(Native Method)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.8hf.<clinit>(:15)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.4cr.run(:232)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.2tf.run(:2)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.1qy.run(:25)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.3hm.run(:10)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.1qy.run(:25)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.1rf.run(:111)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at java.lang.Thread.run(Thread.java:1119)
+10-19 18:54:17.698 W/MDCLLight(13689): 	at X.1rh.run(:8)
+10-19 18:54:17.698 W/MDCLLight(13689): Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+10-19 18:54:17.698 W/MDCLLight(13689): Trying to fallback load dexorg.slf4j.impl.StaticLoggerBinder moduleHint = null
+10-19 18:54:17.698 E/MDCLLight(13689): Fallback load dex failed for org.slf4j.impl.StaticLoggerBinder
+10-19 18:54:17.701 W/System.err(13689): SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+10-19 18:54:17.701 W/System.err(13689): SLF4J: Defaulting to no-operation (NOP) logger implementation
+10-19 18:54:17.701 W/System.err(13689): SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+10-19 18:54:17.703 W/fbservices-stub:InitStatus(11296): Not blocking Service (189922985)
+10-19 18:54:17.707 W/fbservices-stub:InitStatus(11296): Not blocking Service (189922985)
+10-19 18:54:17.761 I/MediaCodec(13689): (0xb400007ba2f8d440) init name(OMX.qcom.video.decoder.vp9)
+10-19 18:54:17.820 I/OMXClient(13689): IOmx service obtained
+10-19 18:54:17.827 V/UiModeManager( 2067): updateLocked: null action, mDockState=0, category=null
+10-19 18:54:17.827 I/OMXMaster( 1530): makeComponentInstance(OMX.qcom.video.decoder.vp9) in android.hardwar process
+10-19 18:54:17.827 D/UiModeManager( 2067): updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=2; mNightModeCustomType=-1; uiMode=97
+10-19 18:54:17.827 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.828 D/PlatformConfig( 1530): getConfigStoreBool: vpp/enable not found(4294967295)
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32 Config name: vidc_dec_log_in value: 0
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32 Config name: vidc_dec_log_out value: 0
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32 Config name: vidc_disable_hdr value: 3
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.866 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.866 I/OMX-VDEC-1080P( 1530): component_init: OMX.qcom.video.decoder.vp9 : fd=7
+10-19 18:54:17.879 W/fbservices-stub:InitStatus(11296): Not blocking Service (189922985)
+10-19 18:54:17.879 W/fbservices-stub:InitStatus(11296): Not blocking Service (189922985)
+10-19 18:54:17.885 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.885 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.885 D/PlatformConfig( 1530): getInstance: Enter
+10-19 18:54:17.885 D/PlatformConfig( 1530): getInt32: Returning default
+10-19 18:54:17.885 I/OMX-VDEC-1080P( 1530): omx_vdec::component_init() success : fd=7
+10-19 18:54:17.888 D/PowerUI ( 2735): can't show warning due to - plugged: true status unknown: false
+10-19 18:54:17.892 I/MediaCodec(13689): (0xb400007ba2f8d440) Component Allocated (OMX.qcom.video.decoder.vp9)
+10-19 18:54:17.916 I/MediaCodec(13689): (0xb400007ba2f8d440) stop
+10-19 18:54:17.923 I/OMX-VDEC-1080P( 1530): omx_vdec::component_deinit() complete
+10-19 18:54:17.925 I/OMX-VDEC-1080P( 1530): Exit OMX vdec Destructor: fd=7
+10-19 18:54:17.927 D/MediaCodec(13689): MediaCodec::reclaim(0xb400007ba2f8d440) OMX.qcom.video.decoder.vp9
+10-19 18:54:17.928 D/MediaCodec(13689): flushMediametrics
+10-19 18:54:17.935 D/MediaCodec(13689): MediaCodec looper is gone, skip reclaim
+10-19 18:54:17.937 D/MediaCodec(13689): flushMediametrics
+10-19 18:54:17.939 I/MediaCodec(13689): (0xb400007ba2f90470) init name(c2.android.aac.decoder)
+10-19 18:54:17.948 D/CCodec  (13689): allocate(c2.android.aac.decoder)
+10-19 18:54:17.971 I/Codec2Client(13689): Available Codec2 services: "software"
+10-19 18:54:17.973 D/AdaptWidgetUtil( 4944): width--->184
+10-19 18:54:17.976 D/AdaptWidgetUtil( 4944): isSmallWidget: 621,928,minWidth=931.5
+10-19 18:54:17.983 D/AdaptWidgetUtil( 4944): width--->184
+10-19 18:54:18.117 E/PendingMediaStoreSerializer(13689): deserialize start
+10-19 18:54:18.117 E/PendingMediaStoreSerializer(13689): start reading pending media
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): Set the submedia on albums
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): Set the submedia on post threads
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): Set the submedia on story templates
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): deserialize is done. start calling callbacks
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): wait for deserialization lock
+10-19 18:54:18.118 E/PendingMediaStoreSerializer(13689): calling callbacks
+10-19 18:54:18.119 E/PendingMediaStoreSerializer(13689): deserialize end
+10-19 18:54:18.122 I/CCodec  (13689): Created component [c2.android.aac.decoder]
+10-19 18:54:18.127 D/CCodecConfig(13689): read media type: audio/mp4a-latm
+10-19 18:54:18.134 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: algo.buffers.max-count.values
+10-19 18:54:18.136 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: output.subscribed-indices.values
+10-19 18:54:18.138 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-19 18:54:18.139 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-19 18:54:18.140 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-19 18:54:18.140 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: output.buffers.pool-ids.values
+10-19 18:54:18.145 D/ReflectedParamUpdater(13689): extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-19 18:54:18.148 W/AppInitScheduler|Run(13689): DeadlockMonitor exiting.
+10-19 18:54:18.163 D/AdaptWidgetUtil( 4944): width--->128
+10-19 18:54:18.163 D/AdaptWidgetUtil( 4944): isSmallWidget: 432,618,minWidth=931.5
+10-19 18:54:18.167 I/CCodecConfig(13689): query failed after returning 20 values (BAD_INDEX)
+10-19 18:54:18.167 D/CCodecConfig(13689): c2 config diff is Dict {
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 coded.aac-packaging.value = 0
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 coded.bitrate.value = 64000
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 coded.pl.level = 0
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 coded.pl.profile = 8192
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::i32 coding.drc.album-mode.value = 0
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::float coding.drc.attenuation-factor.value = 1
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::float coding.drc.boost-factor.value = 1
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::i32 coding.drc.compression-mode.value = 3
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::i32 coding.drc.effect-type.value = 3
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::float coding.drc.encoded-level.value = 0.25
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::float coding.drc.reference-level.value = -16
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 input.buffers.max-size.value = 8192
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 input.delay.value = 0
+10-19 18:54:18.167 D/CCodecConfig(13689):   string input.media-type.value = "audio/mp4a-latm"
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 output.delay.value = 2
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::float output.drc.output-loudness.value = 0.25
+10-19 18:54:18.167 D/CCodecConfig(13689):   string output.media-type.value = "audio/raw"
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 raw.channel-count.value = 1
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 raw.channel-mask.value = 0
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 raw.max-channel-count.value = 8
+10-19 18:54:18.167 D/CCodecConfig(13689):   c2::u32 raw.sample-rate.value = 44100
+10-19 18:54:18.167 D/CCodecConfig(13689): }
+10-19 18:54:18.168 I/MediaCodec(13689): (0xb400007ba2f90470) Component Allocated (c2.android.aac.decoder)
+10-19 18:54:18.169 I/MediaCodec(13689): (0xb400007ba2f90470) stop
+10-19 18:54:18.181 D/AdaptWidgetUtil( 4944): width--->128
+10-19 18:54:18.181 I/hw-BpHwBinder(13689): onLastStrongRef automatically unlinking death recipients
+10-19 18:54:18.181 I/hw-BpHwBinder( 1569): onLastStrongRef automatically unlinking death recipients
+10-19 18:54:18.182 D/MediaCodec(13689): flushMediametrics
+10-19 18:54:18.184 D/MediaCodec(13689): flushMediametrics
+10-19 18:54:18.184 D/BufferPoolAccessor2.0( 1569): Destruction - bufferpool2 0xb4000075a2da6978 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+10-19 18:54:18.189 W/BroadcastQueue( 2067): Exported Denial: sending Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 (has extras) }, action: android.net.conn.CONNECTIVITY_CHANGE from null (uid=-1) due to receiver ProcessRecord{d23b638 13689:com.instagram.android/u0a375} (uid 10375) not specifying RECEIVER_EXPORTED
+10-19 18:54:18.198 W/stagram.android(13689): JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.msys.mci.EventLoggingData
+10-19 18:54:18.215 W/MultiSignalANRDetectorLacrima(13689): Pausing error state checks
+10-19 18:54:18.269 W/MqttDozeAwareClientWrapper(13689): Doze mode disabled. Starting client
+10-19 18:54:18.319 W/RealtimeClientManager(13689): Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=0, mLastDisconnectMs=0}
+10-19 18:54:18.328 D/ConnectivityService( 2067): NetReassign [no changes] [c 0] [a 3] [i 17]
+10-19 18:54:18.385 W/RealtimeClientManager(13689): Channel state: MqttChannelState{mConnectionState=CONNECTED, mDisconnectionReason=null, mLastConnectionMs=0, mLastDisconnectMs=0}
+10-19 18:54:18.577 W/RealtimeClientManager(13689): Channel state: MqttChannelState{mConnectionState=CONNECTED_AND_ACKED, mDisconnectionReason=null, mLastConnectionMs=230386885, mLastDisconnectMs=0}
+10-19 18:54:18.692 W/SoLoader(13689): SoLoader already initialized
+10-19 18:54:18.696 W/IgMetaConfig(13689): Could not obtain MC: not_user_session session=X.1L5@522e7b9
+10-19 18:54:18.696 W/IgMetaConfig(13689): java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.2ry.A06(:4)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.2ry.A05(:8)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.2ry.A03(:2)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.2tn.A00(:8)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.2tn.A03(:7)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.5ze.A00(:6)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.6AM.G6S(:63)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at X.6aK.handleMessage(:76)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at android.os.Handler.dispatchMessage(Handler.java:111)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at android.os.Looper.loopOnce(Looper.java:238)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at android.os.Looper.loop(Looper.java:357)
+10-19 18:54:18.696 W/IgMetaConfig(13689): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-19 18:54:18.721 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libpando-client-runtimedefaults-jni.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:18.716 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113334): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libpando-client-runtimedefaults-jni.so" dev="dm-40" ino=628327 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:18.854 E/ActionQueryTaskListener(13689): 0 onTaskStart BACKGROUND modules: [pytorch]
+10-19 18:54:18.931 D/WifiStaIfaceHidlImpl( 2067): getCachedScanData is not implemented by HIDL
+10-19 18:54:19.069 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135634846; UID 10223; state: DISABLED
+10-19 18:54:19.069 D/CompatibilityChangeReporter( 2067): Compat change id reported: 177438394; UID 10223; state: DISABLED
+10-19 18:54:19.069 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135772972; UID 10223; state: DISABLED
+10-19 18:54:19.069 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135754954; UID 10223; state: ENABLED
+10-19 18:54:19.070 D/CompatibilityChangeReporter( 2067): Compat change id reported: 143937733; UID 10223; state: ENABLED
+10-19 18:54:19.082 D/Zygote  ( 1026): Forked child process 13987
+10-19 18:54:19.083 I/ActivityManager( 2067): Start proc 13987:com.facebook.appmanager/u0a223 for service {com.facebook.appmanager/com.facebook.analytics2.logger.legacy.uploader.LollipopUploadService}
+10-19 18:54:19.128 I/book.appmanager(13987): Using CollectorTypeCC GC.
+10-19 18:54:19.134 E/book.appmanager(13987): Not starting debugger since process cannot load the jdwp agent.
+10-19 18:54:19.146 D/nativeloader(13987): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-19 18:54:19.159 D/CompatibilityChangeReporter( 2067): Compat change id reported: 168419799; UID 10223; state: DISABLED
+10-19 18:54:19.173 D/CompatibilityChangeReporter(13987): Compat change id reported: 171979766; UID 10223; state: ENABLED
+10-19 18:54:19.279 D/nativeloader(13987): Configuring clns-4 for other apk /data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/lib/arm64:/data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.facebook.appmanager
+10-19 18:54:19.337 D/nativeloader(13987): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-19 18:54:19.352 V/GraphicsEnvironment(13987): ANGLE Developer option for 'com.facebook.appmanager' set to: 'default'
+10-19 18:54:19.353 V/GraphicsEnvironment(13987): ANGLE GameManagerService for com.facebook.appmanager: false
+10-19 18:54:19.353 V/GraphicsEnvironment(13987): Neither updatable production driver nor prerelease driver is supported.
+10-19 18:54:19.360 D/NetworkSecurityConfig(13987): Using Network Security Config from resource fb_network_security_config debugBuild: false
+10-19 18:54:19.375 D/NetworkSecurityConfig(13987): Using Network Security Config from resource fb_network_security_config debugBuild: false
+10-19 18:54:19.378 W/IgMetaConfig(13689): Could not obtain MC: not_user_session session=X.1L5@522e7b9
+10-19 18:54:19.378 W/IgMetaConfig(13689): java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.2ry.A06(:4)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.2ry.A05(:8)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.2ry.A03(:2)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.2tn.A00(:8)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.2tn.A03(:7)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.6aa.run(:7)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at X.1qy.run(:25)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at android.os.Handler.handleCallback(Handler.java:984)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at android.os.Handler.dispatchMessage(Handler.java:104)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at android.os.Looper.loopOnce(Looper.java:238)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at android.os.Looper.loop(Looper.java:357)
+10-19 18:54:19.378 W/IgMetaConfig(13689): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-19 18:54:19.516 D/d       (13987): ExceptionHandlerManager not explicitly initialized, using default mode
+10-19 18:54:19.517 D/d       (13987): initializing exception handler manager, prioritized=true
+10-19 18:54:19.529 W/SoLoader(13987): Initializing SoLoader: 0
+10-19 18:54:19.530 W/SoLoader(13987): context.getApplicationContext returned null, holding reference to original context.ApplicationSoSource fallbacks to: /data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/lib/arm64
+10-19 18:54:19.530 W/SoLoader(13987): Recording new base apk path: /data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/base.apk
+10-19 18:54:19.530 W/SoLoader(13987): Previously recorded 0 base apk paths.
+10-19 18:54:19.533 I/SoLoader(13987): Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+10-19 18:54:19.534 I/SoLoader(13987): Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+10-19 18:54:19.534 I/SoLoader(13987): Preparing SO source: DirectApkSoSource[root = [/data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/base.apk!/lib/arm64-v8a]]
+10-19 18:54:19.542 I/SoLoader(13987): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~b_7L5CMsjAVZqpIXqJHAWw==/com.facebook.appmanager-oBeZBoGPbUBAaSJHiY6Neg==/lib/arm64 flags = 1]]
+10-19 18:54:19.542 I/SoLoader(13987): init finish: 4 SO sources prepared
+10-19 18:54:19.542 W/SoLoader(13987): SoLoader initialized: 8
+10-19 18:54:19.606 D/CompatibilityChangeReporter( 2067): Compat change id reported: 161145287; UID 10223; state: DISABLED
+10-19 18:54:19.632 E/SQLiteLog(13987): (14) cannot open file at line 39583 of [bcd014c473]
+10-19 18:54:19.632 E/SQLiteLog(13987): (14) os_unix.c:39583: (2) open(/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb) - 
+10-19 18:54:19.635 E/SQLiteDatabase(13987): Failed to open database '/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb'.
+10-19 18:54:19.635 E/SQLiteDatabase(13987): android.database.sqlite.SQLiteCantOpenDatabaseException: Cannot open database '/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb' with flags 0x0: File /data/user/0/com.facebook.appmanager/databases/androidx.work.workdb doesn't exist
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:262)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:205)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:512)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:210)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:202)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:1085)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:1065)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:956)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:903)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at com.facebook.oxygen.common.androidx.workmanager.initializer.b.a(WorkManagerDatabase.java:22)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at com.facebook.oxygen.appmanager.app.c.a(AppManagerApplicationImpl.java:21)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at com.facebook.oxygen.common.component.b.d.onCreate(OxpDelegatingApplication.java:84)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1279)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6988)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2238)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.os.Handler.dispatchMessage(Handler.java:111)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.os.Looper.loopOnce(Looper.java:238)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.os.Looper.loop(Looper.java:357)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.app.ActivityThread.main(ActivityThread.java:8149)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at java.lang.reflect.Method.invoke(Native Method)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): Caused by: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14 SQLITE_CANTOPEN): Could not open database
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:224)
+10-19 18:54:19.635 E/SQLiteDatabase(13987): 	... 22 more
+10-19 18:54:19.639 I/Typeface(13987): updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+10-19 18:54:19.662 W/Profilo/TraceControl(13689): Loom client config id: 7294866916715868783
+10-19 18:54:19.663 D/CompatibilityChangeReporter(13987): Compat change id reported: 160794467; UID 10223; state: ENABLED
+10-19 18:54:19.664 W/Profilo/TraceControl(13689): START PROFILO_TRACEID: Hme1tGJ29yh 30539777
+10-19 18:54:19.793 D/CompatibilityChangeReporter(13987): Compat change id reported: 194532703; UID 10223; state: ENABLED
+10-19 18:54:19.797 D/JobScheduler( 2067): Enqueueing job: (job:5100/com.facebook.appmanager/com.facebook.oxygen.common.jobqueue.JobQueueService) work: JobWorkItem{id=0 intent=Intent { act=appmanager.sso.SsoSessionWorker (has extras) }}
+10-19 18:54:19.797 D/CompatibilityChangeReporter( 2067): Compat change id reported: 194532703; UID 10223; state: ENABLED
+10-19 18:54:19.840 D/JobScheduler( 2067): Enqueueing job: (job:5100/com.facebook.appmanager/com.facebook.oxygen.common.jobqueue.JobQueueService) work: JobWorkItem{id=0 intent=Intent { act=preloads.common.packages.delta.DeltaPackageWorker (has extras) }}
+10-19 18:54:19.861 D/JobScheduler( 2067): Enqueueing job: (job:5100/com.facebook.appmanager/com.facebook.oxygen.common.jobqueue.JobQueueService) work: JobWorkItem{id=0 intent=Intent { act=appmanager.ui.notificationchannels.NotificationChannelWorker (has extras) }}
+10-19 18:54:19.881 I/ActivityManager( 2067): com.facebook.system is exempt from freezer
+10-19 18:54:19.881 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135634846; UID 10190; state: DISABLED
+10-19 18:54:19.882 D/CompatibilityChangeReporter( 2067): Compat change id reported: 177438394; UID 10190; state: DISABLED
+10-19 18:54:19.882 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135772972; UID 10190; state: DISABLED
+10-19 18:54:19.882 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135754954; UID 10190; state: ENABLED
+10-19 18:54:19.884 D/CompatibilityChangeReporter( 2067): Compat change id reported: 143937733; UID 10190; state: ENABLED
+10-19 18:54:19.903 D/Zygote  ( 1026): Forked child process 14043
+10-19 18:54:19.909 I/ActivityManager( 2067): Start proc 14043:com.facebook.system/u0a190 for content provider {com.facebook.system/com.facebook.oxygen.installer.api.AppManagerApiProvider}
+10-19 18:54:19.935 I/facebook.system(14043): Using CollectorTypeCC GC.
+10-19 18:54:19.943 E/facebook.system(14043): Not starting debugger since process cannot load the jdwp agent.
+10-19 18:54:19.968 D/nativeloader(14043): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-19 18:54:19.992 E/ActionQueryTaskListener(13689): 0 onLoadBatchStart BACKGROUND modules: [pytorch]
+10-19 18:54:20.002 D/CompatibilityChangeReporter( 2067): Compat change id reported: 168419799; UID 10190; state: DISABLED
+10-19 18:54:20.007 W/SoLoader(13689): Registering application split pytorch split_pytorch.apk
+10-19 18:54:20.011 W/SoLoader(13689): Prepending SoSource pytorch-asset-libs: SuperpackSoSource[root = /data/data/com.instagram.android/modules/pytorch_d5fa92a720dbf15b4a361cdb6798ce3d8a5758c68a323d2c745f01cfb7d80b44/lib-compressed/arm64-v8a/806345170/asset-libs flags = 1 zipSource = /data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/split_pytorch.apk compressedPath = assets/pytorch/libs.spo identity = pytorch]
+10-19 18:54:20.018 D/CompatibilityChangeReporter(14043): Compat change id reported: 171979766; UID 10190; state: ENABLED
+10-19 18:54:20.033 E/ActionQueryTaskListener(13689): 0 onLoadBatchComplete exception: null BACKGROUND modules: [pytorch]
+10-19 18:54:20.076 W/SoLoader[NativeDeps](13689): Couldn't find libtorchmerged_pytorch.so in native deps file
+10-19 18:54:20.076 W/SoLoader[NativeDeps](13689): Falling back to custom ELF parsing when loading libtorchmerged_pytorch.so, this can be slow
+10-19 18:54:20.080 E/ActionQueryTaskListener(13689): 0 onTaskComplete [true,false,] BACKGROUND modules: [pytorch]
+10-19 18:54:20.099 D/nativeloader(14043): Configuring clns-4 for other apk /data/app/~~Z4meq12UENmwgdd12mWFMw==/com.facebook.system-AYlEH9ozkMeQ9mzXkJp6Uw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~Z4meq12UENmwgdd12mWFMw==/com.facebook.system-AYlEH9ozkMeQ9mzXkJp6Uw==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.facebook.system
+10-19 18:54:20.120 D/nativeloader(14043): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-19 18:54:20.140 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113335): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/librtc.so" dev="dm-40" ino=616747 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.144 V/GraphicsEnvironment(14043): ANGLE Developer option for 'com.facebook.system' set to: 'default'
+10-19 18:54:20.146 V/GraphicsEnvironment(14043): ANGLE GameManagerService for com.facebook.system: false
+10-19 18:54:20.146 V/GraphicsEnvironment(14043): Neither updatable production driver nor prerelease driver is supported.
+10-19 18:54:20.166 D/NetworkSecurityConfig(14043): Using Network Security Config from resource fb_network_security_config debugBuild: false
+10-19 18:54:20.172 D/NetworkSecurityConfig(14043): Using Network Security Config from resource fb_network_security_config debugBuild: false
+10-19 18:54:20.207 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/librtc.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.238 I/Typeface(14043): updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+10-19 18:54:20.233 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113336): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libardmerged.so" dev="dm-40" ino=605048 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.247 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libardmerged.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.253 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113337): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libtorchmerged.so" dev="dm-40" ino=574793 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.263 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libtorchmerged.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.263 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113338): avc: granted { execute } for path="/data/data/com.instagram.android/modules/pytorch_d5fa92a720dbf15b4a361cdb6798ce3d8a5758c68a323d2c745f01cfb7d80b44/lib-compressed/arm64-v8a/806345170/asset-libs/libtorchmerged_pytorch.so" dev="dm-40" ino=525105 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.284 E/ActivityThread(13987): Failed to find provider info for com.facebook.appmanager.nekodirect
+10-19 18:54:20.304 D/CompatibilityChangeReporter(13987): Compat change id reported: 147600208; UID 10223; state: ENABLED
+10-19 18:54:20.304 D/JobScheduler( 2067): Enqueueing job: (job:5500/com.facebook.appmanager/com.facebook.oxygen.appmanager.update.core.UpdateService) work: JobWorkItem{id=0 intent=Intent { act=check_consistency cmp=com.facebook.appmanager/com.facebook.oxygen.appmanager.update.core.UpdateService (has extras) }}
+10-19 18:54:20.376 D/nativeloader(13689): Load /data/data/com.instagram.android/modules/pytorch_d5fa92a720dbf15b4a361cdb6798ce3d8a5758c68a323d2c745f01cfb7d80b44/lib-compressed/arm64-v8a/806345170/asset-libs/libtorchmerged_pytorch.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.378 E/ActionQueryTaskListener(13689): 1 onTaskStart BACKGROUND modules: [executorch]
+10-19 18:54:20.380 E/ActionQueryTaskListener(13689): 1 onLoadBatchStart BACKGROUND modules: [executorch]
+10-19 18:54:20.386 W/SoLoader(13689): Registering application split executorch split_executorch.apk
+10-19 18:54:20.389 W/SoLoader(13689): Prepending SoSource executorch-asset-libs: SuperpackSoSource[root = /data/data/com.instagram.android/modules/executorch_2af3d828e779b7c549275e9d99a902ffbbde576643b2192db2e9357f1bcd141d/lib-compressed/arm64-v8a/806345170/asset-libs flags = 1 zipSource = /data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/split_executorch.apk compressedPath = assets/executorch/libs.spo identity = executorch]
+10-19 18:54:20.400 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113339): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libarfxmerged.so" dev="dm-40" ino=587587 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.405 W/dex2oat64(13567): Compilation of etzo eufq.a(int) took 348.723ms
+10-19 18:54:20.426 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libarfxmerged.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.430 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113340): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libarcore_sdk_c.so" dev="dm-40" ino=239576 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.434 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libarcore_sdk_c.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.440 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113341): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libeffectsmerged.so" dev="dm-40" ino=563911 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.497 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libeffectsmerged.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.500 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113342): avc: granted { execute } for path="/data/data/com.instagram.android/lib-compressed/libctmerged.so" dev="dm-40" ino=610995 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:20.523 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libctmerged.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.538 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_assistant_oacr_smart_comms_smart_keyboard_utils_string_base_utilsAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.554 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_libraries_actrie_actrieAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.560 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_assistant_oacr_smart_comms_shared_smart_comms_block_phraseAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.569 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_assistant_oacr_smart_comms_shared_smart_comms_porter_stemmerAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.578 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_assistant_oacr_smart_comms_smart_avatars_smart_avatars_classifierAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.602 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_structuredlogger_events_gen_MantleClientDebugEvent_genAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.622 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_mantle_logger_loggerAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.637 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_configerator_structs_mantle_dag_dag-cpp2-typesAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.645 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_mantle_scoped_mantle_holder_scoped_mantle_holderAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.662 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_executorch_extension_tensor_tensorAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.670 D/JobScheduler( 2067): Enqueueing job: (job:5500/com.facebook.appmanager/com.facebook.oxygen.appmanager.update.core.UpdateService) work: JobWorkItem{id=0 intent=Intent { act=package_event cmp=com.facebook.appmanager/com.facebook.oxygen.appmanager.update.core.UpdateService (has extras) }}
+10-19 18:54:20.677 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libxplat_mantle_MantleCQLAndroid.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.697 D/nativeloader(13689): Load /data/data/com.instagram.android/lib-compressed/libmantle-ig.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:20.718 E/ActionQueryTaskListener(13689): 1 onLoadBatchComplete exception: null BACKGROUND modules: [executorch]
+10-19 18:54:20.728 I/Mantle  (13689): IGMantleJni::initHybrid is called.
+10-19 18:54:20.736 I/Mantle  (13689): IGMantleJni::IGMantleJni is called.
+10-19 18:54:20.892 W/FrscLanguagePack(13689): FRSC English string not found for ID #0x7f1301b3
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{54b440f com.example.gridnote/10431} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{f945d22 com.gridnote.bitacora_fix/10478} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{6894a7a com.alphamatch.app.alpha_match/10368} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{182122b com.gridnote.app.gridnote/10448} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{e2d0688 com.gridnote.app/10442} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.346 I/AppsFilter( 2067): interaction: PackageSetting{6596821 com.example.alpha_match_fixed/10393} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{c519446 com.example.alpha_match_clean/10330} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{e0da607 com.example.alpha_inspec_fixed/10419} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{4d00334 com.example.alpha_inspec/10421} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{bc3655d com.example.alpha_sheet_pro/10428} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{e02aed2 com.example.alpha_sheet_gps_app/10422} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{d49ba3 com.gridnote.qrfast/10470} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.347 I/AppsFilter( 2067): interaction: PackageSetting{5041ea0 com.example.alpha_match_new/10382} -> PackageSetting{d109aed com.facebook.appmanager/10223} BLOCKED
+10-19 18:54:21.406 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135634846; UID 10306; state: DISABLED
+10-19 18:54:21.406 D/CompatibilityChangeReporter( 2067): Compat change id reported: 177438394; UID 10306; state: DISABLED
+10-19 18:54:21.406 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135772972; UID 10306; state: DISABLED
+10-19 18:54:21.406 D/CompatibilityChangeReporter( 2067): Compat change id reported: 135754954; UID 10306; state: ENABLED
+10-19 18:54:21.407 D/CompatibilityChangeReporter( 2067): Compat change id reported: 143937733; UID 10306; state: ENABLED
+10-19 18:54:21.408 D/JobScheduler( 2067): Enqueueing job: (job:5100/com.facebook.appmanager/com.facebook.oxygen.common.jobqueue.JobQueueService) work: JobWorkItem{id=0 intent=Intent { act=preloads.common.packages.source.common.RegisteredPackageEventWorker (has extras) }}
+10-19 18:54:21.412 I/Telecom ( 2067): DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@jDU
+10-19 18:54:21.425 D/Zygote  ( 1026): Forked child process 14069
+10-19 18:54:21.426 I/ActivityManager( 2067): Start proc 14069:com.google.android.permissioncontroller/u0a306 for service {com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl}
+10-19 18:54:21.438 D/FreeformGesture( 2735): onStateChanged: State{mIsPackageAvailable=true, mPillGestureEnabled=true, mVibrationEnabled=true, mShortcutPanelShowing=false, mSwipeInEnabled=true, mHunFreeformEnabled=true, mIsInGameMode=false, mIsRecentsShowing=false, mPillXPosition=1, mPillYPosition=600, mIsInTutorialMode=false, mIsDoubleTapPowerEnabled=false}
+10-19 18:54:21.470 I/ssioncontroller(14069): Using CollectorTypeCC GC.
+10-19 18:54:21.481 E/ssioncontroller(14069): Not starting debugger since process cannot load the jdwp agent.
+10-19 18:54:21.501 D/nativeloader(14069): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-19 18:54:21.510 W/ThreadPoolForeg(12544): type=1400 audit(0.0:113355): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=25288 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+10-19 18:54:21.525 D/CarrierSvcBindHelper( 2944): onPackageModified: com.facebook.appmanager
+10-19 18:54:21.527 I/Bugle   ( 8227): BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of cwkt@d61b9b4
+10-19 18:54:21.529 D/CarrierSvcBindHelper( 2944): No carrier app for: 0
+10-19 18:54:21.554 D/CompatibilityChangeReporter( 2067): Compat change id reported: 168419799; UID 10306; state: DISABLED
+10-19 18:54:21.575 E/ActionQueryTaskListener(13689): 1 onTaskComplete [true,false,] BACKGROUND modules: [executorch]
+10-19 18:54:21.578 W/SoLoader[NativeDeps](13689): Couldn't find libdynamic_executorch.so in native deps file
+10-19 18:54:21.578 W/SoLoader[NativeDeps](13689): Falling back to custom ELF parsing when loading libdynamic_executorch.so, this can be slow
+10-19 18:54:21.580 I/InputReader( 2067): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+10-19 18:54:21.585 D/CompatibilityChangeReporter(14069): Compat change id reported: 171979766; UID 10306; state: ENABLED
+10-19 18:54:21.583 W/SWPool3_t1of1(13689): type=1400 audit(0.0:113356): avc: granted { execute } for path="/data/data/com.instagram.android/modules/executorch_2af3d828e779b7c549275e9d99a902ffbbde576643b2192db2e9357f1bcd141d/lib-compressed/arm64-v8a/806345170/asset-libs/libdynamic_executorch.so" dev="dm-40" ino=155502 scontext=u:r:untrusted_app:s0:c119,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c119,c257,c512,c768 tclass=file app=com.instagram.android
+10-19 18:54:21.590 W/libc    (13689): Access denied finding property "ro.hardware.chipname"
+10-19 18:54:21.593 D/ImsResolver( 2944): maybeAddedImsService, packageName: com.facebook.appmanager
+10-19 18:54:21.611 D/nativeloader(13689): Load /data/data/com.instagram.android/modules/executorch_2af3d828e779b7c549275e9d99a902ffbbde576643b2192db2e9357f1bcd141d/lib-compressed/arm64-v8a/806345170/asset-libs/libdynamic_executorch.so using class loader ns clns-5 (caller=/data/app/~~QcMgwa6gTDnZVMUtUQV1hw==/com.instagram.android-sL3j8ufXyVTVeYiWP3IvqQ==/base.apk!classes9.dex): ok
+10-19 18:54:21.643 D/nativeloader(14069): Configuring clns-shared-4 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@360906160/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@360906160:/system/lib64:/system_ext/lib64
+10-19 18:54:21.643 D/nativeloader(14069): Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libQOC.qti.so:libimgTuner_jni.motoimagetuner.so:libjni_helper.motocameradesktop.so:libupdateprof.qti.so:libQOC.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+10-19 18:54:21.736 D/nativeloader(14069): Configuring clns-shared-5 for other apk /apex/com.android.permission/priv-app/GooglePermissionController@360906160/GooglePermissionController.apk. target_sdk_version=36, uses_libraries=, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@360906160/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@360906160:/system/lib64:/system_ext/lib64
+10-19 18:54:21.741 D/nativeloader(14069): InitApexLibraries:
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_adservices: libhpke_jni.so:libtflite_support_classifiers_native.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_appsearch: libappsearchservice.so:libicing_anywhere.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_art: libartservice.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_conscrypt: libjavacrypto.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_mediaprovider: libpdfclient.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_ondevicepersonalization: libfcp_cpp_dep_jni.so:libfcp_hpke_jni.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_os_statsd: libstats_jni.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libmainlinecronet.139.0.7205.3.so:libservice-connectivity.so:libservice-thread-jni.so:stable_cronet_libcrypto.so:stable_cronet_libssl.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_uwb: libuwb_uci_jni_rust.so
+10-19 18:54:21.741 D/nativeloader(14069):   com_android_wifi: libservice-wifi-jni.so
+10-19 18:54:21.836 D/nativeloader(14069): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-19 18:54:21.857 V/GraphicsEnvironment(14069): ANGLE Developer option for 'com.google.android.permissioncontroller' set to: 'default'
+10-19 18:54:21.860 V/GraphicsEnvironment(14069): ANGLE GameManagerService for com.google.android.permissioncontroller: false
+10-19 18:54:21.860 V/GraphicsEnvironment(14069): Neither updatable production driver nor prerelease driver is supported.
+10-19 18:54:21.873 D/NetworkSecurityConfig(14069): No Network Security Config specified, using platform default
+10-19 18:54:21.875 D/NetworkSecurityConfig(14069): No Network Security Config specified, using platform default
+10-19 18:54:21.924 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:21.951 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:21.952 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:21.952 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:21.955 D/WifiStaIfaceHidlImpl( 2067): getCachedScanData is not implemented by HIDL
+10-19 18:54:21.966 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:21.993 I/Typeface(14069): updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+10-19 18:54:22.010 I/PermissionControllerServiceImpl(14069): Updating user sensitive for uid 10223
+10-19 18:54:22.231 I/ActivityManager( 2067): Killing 12473:com.instagram.barcelona/u0a341 (adj 955, setSvc -10000): empty #13
+10-19 18:54:22.251 D/CompatibilityChangeReporter( 2067): Compat change id reported: 161145287; UID 10306; state: DISABLED
+10-19 18:54:22.273 W/FeatureFlagsImplExport(14069): java.lang.NoClassDefFoundError: Failed resolution of: Landroid/os/flagging/AconfigPackage;
+10-19 18:54:22.279 I/libprocessgroup( 2067): Successfully killed process cgroup uid 10341 pid 12473 in 43ms
+10-19 18:54:22.356 W/ThreadPoolForeg(16305): type=1400 audit(0.0:113357): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=25288 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+10-19 18:54:22.464 I/ActivityManager( 2067): appDiedLocked: app=ProcessRecord{ef92007 12473:com.instagram.barcelona/u0a341} thread=android.os.BinderProxy@5f16ee5 fromBinderDied=true isKilledByAm=true reason=null
+10-19 18:54:22.465 I/Zygote  ( 1026): Process 12473 exited due to signal 9 (Killed)
+10-19 18:54:22.465 D/RestartModeController( 2067): markWaitRestartAppIsSuicided null processName=com.instagram.barcelona
+10-19 18:54:22.466 D/DisplayManagerService( 2067): Drop pending events for gone uid 10341
+10-19 18:54:22.466 D/ActivityTaskManager( 2067): handleAppDied: uid=10341,diedCount=1,lastDiedTime=230279041,forceStopUids=false
+10-19 18:54:22.469 I/ActivityManager( 2067): Killing 8328:android.process.acore/u0a92 (adj 965, setSvc -10000): empty #13
+10-19 18:54:22.475 I/libprocessgroup( 2067): Successfully killed process cgroup uid 10092 pid 8328 in 0ms
+10-19 18:54:22.535 D/CountryDetector( 2067): No listener is left
+10-19 18:54:22.535 I/ActivityManager( 2067): appDiedLocked: app=ProcessRecord{b5f75a7 8328:android.process.acore/u0a92} thread=android.os.BinderProxy@1b42dba fromBinderDied=true isKilledByAm=true reason=null
+10-19 18:54:22.537 I/Zygote  ( 1026): Process 8328 exited due to signal 9 (Killed)
+10-19 18:54:22.537 D/RestartModeController( 2067): markWaitRestartAppIsSuicided null processName=android.process.acore
+10-19 18:54:22.537 D/DisplayManagerService( 2067): Drop pending events for gone uid 10092
+10-19 18:54:22.538 D/ActivityTaskManager( 2067): handleAppDied: uid=10092,diedCount=1,lastDiedTime=229525187,forceStopUids=false
+10-19 18:54:22.588 W/dex2oat64(13567): Compilation of euja eumj.e(com.google.protobuf.MessageLite, int) took 143.084ms
+10-19 18:54:23.043 I/dex2oat64(13567): Explicit concurrent copying GC freed 88MB AllocSpace bytes, 1(16KB) LOS objects, 84% free, 4643KB/28MB, paused 46us,16us total 48.413ms
+10-19 18:54:23.111 D/BufferPoolAccessor2.0( 1569): evictor expired: 1, evicted: 0
+10-19 18:54:23.307 I/TokenStoreManager(12493): Emitting reauth flow values with reauthMap size 0
+10-19 18:54:23.349 I/StartupNotificationsHelper(12493): Schedule notifications startup work...
+10-19 18:54:23.358 I/StartupNotificationsHelper(12493): Is FCM token valid: true
+10-19 18:54:23.362 W/WM-WorkSpec(12493): Backoff delay duration less than minimum value
+10-19 18:54:23.382 W/OlmDeviceEnrollmentManager(12493): isDeviceUnderOutlookManagement: admin active? Survey says { false, false }
+10-19 18:54:23.383 W/WM-WorkSpec(12493): Backoff delay duration less than minimum value
+10-19 18:54:23.391 I/outlook.Notifications(12493): setupNotificationsChannelsIfNeeded - AlreadyDone[false]
+10-19 18:54:23.428 I/SyncMigrationStatusTracker(12493): Updating MigrationStatus from Undetermined to Unneeded
+10-19 18:54:23.475 I/AvatarManager(12493): AvatarManager - Constructor Begin
+10-19 18:54:23.476 I/AvatarManager(12493): AvatarManager - Constructor End
+10-19 18:54:23.483 I/OutlookAppComponentFactory(12493): instantiateService, androidx.work.impl.background.systemjob.SystemJobService
+10-19 18:54:23.503 I/MSMAM - o.zzff(12493): Recursively tagging intent {0} with identity {1}
+10-19 18:54:23.504 I/FcmTokenUpdateJob(12493): Hx FCM token update job starting
+10-19 18:54:23.536 V/CleanupACBootHandler(12493): AC db not found
+10-19 18:54:23.569 I/HxFcmTokenUpdater(12493): FCM token updated successfully in HxCore
+10-19 18:54:23.578 I/WM-WorkerWrapper(12493): Worker result SUCCESS for Work [ id=451df1fd-186b-4c5f-8c16-2bac0e3e99fe, tags={ com.microsoft.office.outlook.fcm.FcmTokenUpdateJob, FcmTokenUpdateJob } ]
+10-19 18:54:23.603 I/ACAccountManager(12493): getDefaultAccount: Only one account available - Picking accountId=32768
+10-19 18:54:23.624 W/Settings(12493): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-19 18:54:23.659 I/Finsky  (12999): [102] com.microsoft.office.outlook: Account determined from installer data - [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.666 E/ShortcutService( 2067): Invalid icon type in shortcut jangeloff@tecfor-ing.net. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+10-19 18:54:23.668 I/Finsky  (12999): [102] Billing preferred account via installer for com.microsoft.office.outlook: [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.687 I/Finsky  (12999): [102] com.microsoft.office.outlook: Account determined from installer data - [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.688 I/Finsky  (12999): [102] Billing preferred account via installer for com.microsoft.office.outlook: [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.708 I/Finsky  (12999): [102] com.microsoft.office.outlook: Account determined from installer data - [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.708 I/Finsky  (12999): [102] Billing preferred account via installer for com.microsoft.office.outlook: [b9jEihHS1YvIsE__xK66lNMIfoqZSXIJPuGu1dhkJ7k]
+10-19 18:54:23.718 I/IAPHelperImpl(12493): queryPurchasesAsync succeeded, there are 0 purchases
+10-19 18:54:23.943 E/FbnsAIDLClientManager(13689): Max Try reached for binding to FbnsAIDLService, threadId 285
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): Fbns AIDL request got RemoteException
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): android.os.RemoteException: AIDLService is not bound
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): 	at X.HVM.call(:2479)
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): 	at java.lang.Thread.run(Thread.java:1119)
+10-19 18:54:23.944 E/FbnsAIDLClientManager(13689): Max Try reached for binding to FbnsAIDLService, threadId 286
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): Fbns AIDL request got RemoteException
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): android.os.RemoteException: AIDLService is not bound
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): 	at X.HVM.call(:2479)
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-19 18:54:23.945 E/FbnsAIDLClientManager(13689): 	at java.lang.Thread.run(Thread.java:1119)
+10-19 18:54:24.105 W/MotoFreeForm( 4811): [PackageMonitor] onPackageChangedcom.facebook.appmanager
+10-19 18:54:24.124 I/SQLiteCacheHelper(11387): SqliteCacheHelper---->delete whereClause = componentName LIKE ? AND profileId = ?, whereArgs = com.facebook.appmanager/%;0;
+10-19 18:54:24.140 I/system_server( 2067): Background young concurrent copying GC freed 22MB AllocSpace bytes, 8(160KB) LOS objects, 26% free, 66MB/89MB, paused 322us,306us total 135.172ms
+10-19 18:54:24.395 I/lowmemorykiller(  757): Kill 'com.android.remoteprovisioner' (13380), uid 10256, oom_score_adj 955 to free 56844kB rss, 36876kB swap; reason: PSI critical event
+10-19 18:54:24.443 I/ActivityManager( 2067): appDiedLocked: app=ProcessRecord{1ce7b63 13380:com.android.remoteprovisioner/u0a256} thread=android.os.BinderProxy@3e7afe6 fromBinderDied=true isKilledByAm=false reason=null
+10-19 18:54:24.443 I/ActivityManager( 2067): Process com.android.remoteprovisioner (pid 13380) has died: cch+55 CEM 
+10-19 18:54:24.443 I/Zygote  ( 1026): Process 13380 exited due to signal 9 (Killed)
+10-19 18:54:24.444 D/RestartModeController( 2067): markWaitRestartAppIsSuicided null processName=com.android.remoteprovisioner
+10-19 18:54:24.445 D/DisplayManagerService( 2067): Drop pending events for gone uid 10256
+10-19 18:54:24.445 D/ActivityTaskManager( 2067): handleAppDied: uid=10256,diedCount=1,lastDiedTime=230364426,forceStopUids=false
+10-19 18:54:24.446 I/libprocessgroup( 2067): Successfully killed process cgroup uid 10256 pid 13380 in 0ms
+10-19 18:54:24.466 I/AiAi    ( 4684): onTrimMemory() with level 5
+10-19 18:54:24.468 I/GoogleTTSServiceImpl( 3267): Cache enabled: true
+10-19 18:54:24.475 I/Finsky:background(28583): [2] Memory trim requested to level 5
+10-19 18:54:24.476 I/Finsky  (12999): [2] Memory trim requested to level 5
+10-19 18:54:24.481 I/AppBase ( 4140): AppBase.onTrimMemory():409 onTrimMemory(): 5
+10-19 18:54:24.482 I/KeyboardDefCache( 4140): MemoryFileCache$1.onTrimMemory():124 clearMemory() for trim memory: 5
+10-19 18:54:24.482 I/KeyboardDefCache( 4140): MemoryFileCache.clearMemory():408 evictAll()
+10-19 18:54:24.483 I/GoogleInputMethodService( 4140): GoogleInputMethodService.onTrimMemory():2784 onTrimMemory(): 5
+10-19 18:54:24.483 W/fbservices-stub:InitStatus(11296): Not blocking Service (189922985)
+10-19 18:54:24.485 I/ForwardSyncCache( 8227): reclaimMemory: Clearing caches
+10-19 18:54:24.486 D/AppCenterCrashes(12493): The memory running level (40) was saved.
+10-19 18:54:24.500 W/Bugle   ( 8227): TextClassifierLibManagerImpl: Reclaiming memory at level: 80
+10-19 18:54:24.892 D/ProfileInstaller(13987): Installing profile for com.facebook.appmanager
+10-19 18:54:24.977 D/WifiStaIfaceHidlImpl( 2067): getCachedScanData is not implemented by HIDL
+10-19 18:54:25.519 W/ActivityManager( 2067): Rescheduling restart of crashed service com.android.mtp/.MtpService in 20661984ms for mem-pressure-event

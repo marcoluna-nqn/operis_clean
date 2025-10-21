@@ -1,0 +1,16 @@
+// lib/screens/sheet_screen.dart
+import 'package:flutter/material.dart';
+import 'beta_sheet_screen.dart';
+
+class SheetScreen extends StatelessWidget {
+  const SheetScreen({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return const BetaSheetScreen(
+      sheetId: 'legacy', // separa guardado local
+      title: 'Bitácora',
+      columns: 5,
+      initialRows: 60,
+    );
+  }
+}
