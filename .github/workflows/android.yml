@@ -16,30 +16,50 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v2
-        with:
-          api-level: 34
-          build-tools: 34.0.0
-
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
 
+      - run: flutter --version
+      - run: flutter pub get
+      - run: flutter create --platforms=android --overwrite .
+
+      # Restaura google-services.json desde el secreto base64
       - name: Restore google-services.json
         if: ${{ secrets.GOOGLE_SERVICES_JSON_B64 != '' }}
         run: |
           mkdir -p android/app
           printf "%s" "${{ secrets.GOOGLE_SERVICES_JSON_B64 }}" | base64 -d > android/app/google-services.json
 
-      - run: flutter --version
-      - run: flutter pub get
-      - run: flutter create --platforms=android --overwrite .
+      # Alinea applicationId con el package_name del JSON y aplica el plugin de Google Services
+      - name: Configure Firebase plugin
+        if: ${{ secrets.GOOGLE_SERVICES_JSON_B64 != '' }}
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+          PKG=$(jq -r '.client[0].client_info.android_client_info.package_name' android/app/google-services.json)
 
-      - run: yes | sdkmanager --licenses
+          if [ -f android/app/build.gradle.kts ]; then
+            # agrega plugin en app
+            grep -q 'com.google.gms.google-services' android/app/build.gradle.kts || \
+              sed -i 's/^plugins {/plugins {\n    id("com.google.gms.google-services")/' android/app/build.gradle.kts
+            # ajusta applicationId
+            sed -i "s/applicationId = \".*\"/applicationId = \"$PKG\"/" android/app/build.gradle.kts
+            # declara plugin en el root si falta
+            if [ -f android/build.gradle.kts ] && ! grep -q 'com.google.gms.google-services' android/build.gradle.kts; then
+              printf 'plugins {\n    id("com.google.gms.google-services") version "4.4.2" apply false\n}\n\n' | \
+                cat - android/build.gradle.kts > android/build.gradle.kts.new && mv android/build.gradle.kts.new android/build.gradle.kts
+            fi
+          else
+            # Groovy
+            sed -i "s/applicationId \".*\"/applicationId \"$PKG\"/" android/app/build.gradle
+            grep -q 'com.google.gms.google-services' android/app/build.gradle || \
+              echo 'apply plugin: "com.google.gms.google-services"' >> android/app/build.gradle
+            grep -q 'com.google.gms:google-services' android/build.gradle || \
+              sed -i '/dependencies {/a\        classpath "com.google.gms:google-services:4.4.2"' android/build.gradle
+          fi
 
       - run: flutter build apk --debug -v
-      - run: flutter build apk --release -v || true
 
       - uses: actions/upload-artifact@v4
         with:
