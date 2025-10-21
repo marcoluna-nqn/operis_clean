@@ -1,4 +1,4 @@
-﻿name: Android APK
+name: Android APK
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v2
         with:
           api-level: 34
           build-tools: 34.0.0
