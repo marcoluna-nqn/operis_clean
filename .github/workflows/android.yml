@@ -1,0 +1,44 @@
+﻿name: Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.35.6'
+          channel: stable
+
+      - run: flutter --version
+      - run: flutter pub get
+
+      # Si no existe /android, lo crea
+      - run: flutter create --platforms=android --overwrite .
+
+      # Opcional: applicationId desde secreto
+      - if: ${{ secrets.ANDROID_APPLICATION_ID != '' }}
+        run: |
+          sed -i 's/applicationId "com.example.[^"]*"/applicationId "${{ secrets.ANDROID_APPLICATION_ID }}"/' android/app/build.gradle
+
+      # Build para testers
+      - run: flutter build apk --debug
+
+      # Release sin firmar (no bloquea si falla)
+      - run: flutter build apk --release || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-apks
+          path: build/app/outputs/flutter-apk/*.apk
