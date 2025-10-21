@@ -1,4 +1,4 @@
-name: Android APK
+﻿name: Android APK
 
 on:
   workflow_dispatch:
@@ -26,16 +26,18 @@ jobs:
           channel: stable
           cache: true
 
+      - name: Restore google-services.json
+        if: ${{ secrets.GOOGLE_SERVICES_JSON_B64 != '' }}
+        run: |
+          mkdir -p android/app
+          printf "%s" "${{ secrets.GOOGLE_SERVICES_JSON_B64 }}" | base64 -d > android/app/google-services.json
+
       - run: flutter --version
       - run: flutter pub get
-
-      # Crea /android si falta
       - run: flutter create --platforms=android --overwrite .
 
-      # Acepta licencias del SDK
       - run: yes | sdkmanager --licenses
 
-      # Build
       - run: flutter build apk --debug -v
       - run: flutter build apk --release -v || true
 
