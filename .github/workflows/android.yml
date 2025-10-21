@@ -23,19 +23,13 @@ jobs:
 
       - run: flutter --version
       - run: flutter pub get
-
-      # Si no existe /android, lo crea
       - run: flutter create --platforms=android --overwrite .
 
-      # Opcional: applicationId desde secreto
       - if: ${{ secrets.ANDROID_APPLICATION_ID != '' }}
         run: |
           sed -i 's/applicationId "com.example.[^"]*"/applicationId "${{ secrets.ANDROID_APPLICATION_ID }}"/' android/app/build.gradle
 
-      # Build para testers
       - run: flutter build apk --debug
-
-      # Release sin firmar (no bloquea si falla)
       - run: flutter build apk --release || true
 
       - uses: actions/upload-artifact@v4
