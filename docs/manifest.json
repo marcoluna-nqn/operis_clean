@@ -1,6 +1,6 @@
 {
-    "name": "operis_clean",
-    "short_name": "operis_clean",
+    "name": "bitacora",
+    "short_name": "bitacora",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
